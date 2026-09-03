@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data (never commit raw audio, datasets, or model weights)
+data/raw/
+data/processed/
+data/segments/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Experiment outputs
+experiments/**/outputs/
+experiments/**/*.png
+experiments/**/results.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
